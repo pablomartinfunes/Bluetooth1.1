@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pfunes.bluetooth11.MainActivity">
+
+    <Button
+        android:text="Activar Bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBluetooth"
+        android:onClick="activarDesactivarBT" />
+
+    <Button
+        android:text="Buscar Bluetooth Devs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="buscarBluetoothDevs" />
+
+</LinearLayout>
